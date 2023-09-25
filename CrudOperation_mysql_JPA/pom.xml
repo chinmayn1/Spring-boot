@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>CrudOperation</artifactId>
+	<artifactId>CrudOperation_mysql_JPA</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>CrudOperation</name>
 	<description>Spring boot crud operation</description>
