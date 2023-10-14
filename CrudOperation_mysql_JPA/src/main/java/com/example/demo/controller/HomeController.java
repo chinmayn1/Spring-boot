@@ -45,7 +45,9 @@ public class HomeController {
 	public String deleteStudent(@PathVariable int rollNo) {
 		Student student = studentRepository.findById(rollNo).get();
 		if(student!= null) 
-			studentRepository.delete(student);
+			{
+			    studentRepository.delete(student);
+			}
 			return "Deleted Successfully!!";
 		
 	}
